@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Table</title>
+    <style>
+        table{
+            border-collapse: separate;
+            border-spacing: 0;
+            color: #323267;
+            font: 12px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        thead{
+            background: #134130;
+            color: #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        th,td {
+            padding: 10px 15px;
+            border: 1px solid grey;
+            vertical-align: middle;
+        }
+
+        .item{
+            text-align: left;
+        }
+
+        .unit-price,.item-qty,.item-price {
+            text-align: right;
+        }
+
+        tfoot {
+            text-align: right;
+        }
+
+        tfoot tr:last-child {
+            background: #e5e5e6;
+            color: #134130;
+            font-weight: bold;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Title -->
+    <header>
+        <h1>My HTML Table</h1>
+    </header>
+    <!-- Main Table -->
+    <main>
+        <table>
+            <caption><h3>Lunch for 80 pax</h3></caption>
+            <thead>
+                <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Price (RM)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">Nasi Beriyani Ayam</td>
+                    <td class="unit-price">18.00</td>
+                    <td class="item-qty">80</td>
+                    <td class="item-price">1440.00</td>
+                </tr>
+                <tr>
+                    <td class="item">Mineral water</td>
+                    <td class="unit-price">1.20</td>
+                    <td class="item-qty">80</td>
+                    <td class="item-price">96.00</td>
+                </tr>
+                <tr>
+                    <td class="item">Banana Muffin</td>
+                    <td class="unit-price">4.50</td>
+                    <td class="item-qty">80</td>
+                    <td class="item-price">360.00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Subtotal</td>
+                    <td>1896.00</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Tax</td>
+                    <td>113.76</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>2009.76</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; Wan Ahmad Ikhwannaufal 2023</p>
+        <p>Sigma School</p>
+    </footer>
+</body>
+</html>
