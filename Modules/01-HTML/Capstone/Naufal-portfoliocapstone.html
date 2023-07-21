@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Naufal</title>
+    <style>
+        table {
+            width:25%;
+        }
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Introduction -->
+    <header>
+        <h1>About Naufal</h1>
+        <nav>
+            <div>
+                <a href="#gettoknowme">Get to Know Me</a>
+                <a href="#workexperience">Work Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contactme">Contact Me</a>
+            </div>
+        </nav>
+        <br>
+        <div>
+            <img src="./pictures/icecream.jpg" alt="'Profile picture" style="width:216px; height: 162px;">
+        </div>
+        <table>
+            <tr>
+                <th>Name:</th>
+                <td>Wan Ahmad Ikhwannaufal bin Talib</td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td>26 years old</td>
+            </tr>
+            <tr>
+                <th>Interests:</th>
+                <td>Working out, Cooking, Eating</td>
+            </tr>
+            <tr>
+                <th>Description:</th>
+                <td>A cutie who is trying his best to break into the tech industry.</td>
+            </tr>
+        </table>
+    </header>
+    <!-- A little bit about me -->
+    <main>
+        <section id="gettoknowme">
+            <h2>Get to Know Me</h2>
+            <p>Naufal graduated with a Bachelors degree in Electrical Engineering from Universiti Teknikal Malaysia Melaka. He is flexible and has adapted in various industries, having worked in business development, marketing, project management and training & development.His first taste in engineering sector was through an internship at Cypark Resources Berhad in the solar industry, where he was involved in the Large Scale Solar 3 project initiated by Energy Commission Malaysia. After completing his studies, he turned away from the engineering route and joined a start-up that provided e-bazaar for small and micro businesses to thrive during the pandemic. Involved in business development, he was in charge of liaising with business owners, training providers and NGOs. He was an executive trainee under Iltizam Professional Development Programme 2021, a management trainee programme by Ekuiti Nasional Berhad. This is where he acquired invaluable experiences in both entertainment and training industry.</p>
+        </section>
+    <!-- Work Experience -->
+        <section id="workexperience">
+            <h2>Work Experience</h2>
+            <div>
+                <h3>Training Executive @ Coach 2 Success Consultancy Sdn Bhd (2021 - 2023)</h3>
+                <ul>
+                    <li>Develop high-quality training materials including presentations, handouts, online modules, and job aids that support the learning objectives.</li>
+                    <li>Gather participant feedback to evaluate training program effectiveness and implement necessary enhancements.</li>
+                    <li>Track the progress of participants during and after the training programs to measure their performance improvements.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Project Manager @ World Peace Entertainment (2021)</h3>
+                <ul>
+                    <li>Facilitated seamless communication and collaboration between production houses, label partners,
+                        and music distributors, ensuring efficient coordination and successful project delivery.</li>
+                    <li>Secured sponsorship for professional men&#8217;s wear and Baju Melayu from recognised brands such as
+                        TOMAZ and Starvillion.</li>
+                    <li>Coordinated a high-profile photoshoot for talent&#8217;s profile to create a visually captivating and
+                        professional portfolio, while managing logistics and ensuring timely completion.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Significant Achievements</h4>
+                <ul>
+                    <li>Revolutionized the registration process for Bank Islam Sales Conference by gamification, resulting in
+                        the successful engagement and registration of over 1,000 participants.
+                    </li>
+                    <li>Efficiently planned and executed a seamless 1-year training program for Ekuiti Nasional Berhad,
+                        overseeing the scheduling of 16 number of training sessions while ensuring punctuality and
+                        achieving a customer satisfaction rating of 97%.
+                    </li>
+                    <li>
+                        Proficiently orchestrated the planning, organization, and execution of 10+ Amazing Race events for
+                        corporate clients such as Institut Jantung Negara, Talentcorp Malaysia, Bank Pembangunan
+                        Malaysia Berhad, Great Eastern Takaful Berhad, Ekuiti Nasional Berhad, Tenaga Nasional Berhad &
+                        Axiata Group.
+                    </li>
+                    <li>Successfully negotiated dancer fee for music video shoot which resulted in 10% reduced expenses.</li>
+                    <li>Oversaw all aspects of music video projects, including budgeting, scheduling & location scouting.</li>
+                </ul>
+            </div>
+        </section>
+    <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Microsoft Office</td>
+                    <td>Basic</td>
+                </tr>
+                <tr>
+                    <td>Keynote, Pages, Numbers</td>
+                    <td>Basic</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!-- Contact me -->
+    <footer id="contactme">
+        <h2>Contact Me</h2>
+        <form>
+            <div>
+                <label for="name">Name: </label>
+                <input name="name" placeholder="enter your name" type="text" />
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input name="email" placeholder="name@domain.com" type="email" />
+            </div>
+            <div>
+                <label for="date">Date of Birth</label>
+                <input type="date" placeholder="enter your birth date" id="date" min="1990-01-01" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+            <div>
+                <label for="message">Message: </label>
+                <div>
+                    <textarea name="message" id="" cols="50" rows="5"></textarea>
+                </div>   
+            </div>
+            <button>Submit</button>
+        </form>
+        <p>&copy; Wan Ahmad Ikhwannaufal 2023</p>
+        <div>Sigma School</div>
+    </footer>
+</body>
+</html>
