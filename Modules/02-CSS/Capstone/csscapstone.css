@@ -1,0 +1,49 @@
+  body{
+    background-color: none;
+  }
+  
+  @media (min-width: 0px) {
+    .mobile {
+        display: block;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: red;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    body {
+        background-color: green;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+        color: white;
+    }
+    body {
+        background-color: blue;
+    }
+  }
