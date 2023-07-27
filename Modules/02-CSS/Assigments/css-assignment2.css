@@ -1,0 +1,48 @@
+.breadcrumb {
+    list-style-type: none;
+    width: 40%;  
+    padding-left: 15px;
+    background: #e8e8e8;
+    border-radius: 5px;
+  }
+  
+  .breadcrumb li {
+    display: inline;
+    font-weight: 400;
+  }
+  
+  .breadcrumb li a {
+    color:blueviolet;
+  }
+
+  li:nth-child(2):before {
+    content: "/";
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+  }
+
+  li:nth-child(3):before {
+    content: "/";
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+  }
+
+  li:nth-child(4):before {
+    content: "/";
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+  }
+
+  
+  /* add a CSS selector that selects all list elements except for 1st one */
+  /* add "/" before each selected list  */
+  /* add text color and padding */
