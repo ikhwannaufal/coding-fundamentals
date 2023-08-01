@@ -72,6 +72,10 @@ h5 {
   font-size: 16px;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .credits {
   display: flex;
   justify-content: flex-start;
