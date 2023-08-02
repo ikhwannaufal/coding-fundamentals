@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@500&family=Raleway:ital,wght@0,100;0,400;0,500;0,700;1,500;1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background: greenyellow; */
+}  
+  
+  /* Navigation */
+  li, a , button {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(36, 35, 35);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10px;
+    background: rgb(242, 249, 240);
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+    padding-left: 20px;
+    background: rgb(242, 249, 240);
+}
+
+h2 {
+    font-size: 46px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:rgb(154, 197, 142);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(242, 249, 240);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover {
+    background-color: rgb(154, 197, 142);
+}
+
+/* Blog card */
+section {
+    height: 500px;
+    background: url(https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: 1720px 500px;
+}
+
+.heading {
+    padding: 150px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1, p {
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow:3px 3px rgb(42, 42, 42);
+}
+
+p {
+    font-weight: 500;
+    font-size: 22px;
+    text-shadow: 2px 2px rgb (42, 42, 42);
+}
+
+/* Contact card */
+.contactcard {
+    display: flex;
+    align-items: stretch;
+    height: 600px;
+}
+
+.info {
+    background-color: rgb(105, 189, 82);
+    padding: 20px 30px;
+    flex: 1;
+}
+
+.info h3,p {
+    padding: 20px 0;
+    font-size: 22px;
+    color: rgb(242, 249, 240);
+    text-shadow: 2px 2px rgb (42, 42, 42);
+}
+
+/* Contact info */
+.contactlinks {
+    display: flex;
+    flex-direction: column;   
+}
+
+.contactlinks a {
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(242, 249, 240);
+}
+
+.sociallinks a i {
+    padding: 10px 20px 0 0;
+}
+
+.sociallinks a i {
+    font-size: 2em;
+    color: rgb(242, 249, 240);
+    opacity: o.8;
+}
+
+.sociallinks a:hover {
+    transition: 0.5s;
+}
+
+.sociallinks a:hover i {
+    color: rgb(161, 219, 145);
+    transition: 0.5s;
+}
+
+/* Contact forms */
+.forms {
+    background-color: rgb(242, 249, 240);
+    padding: 20px 30px;
+    flex: 2;
+}
+
+.forms h3 {
+    padding: 20px 0 0 52px;
+    font-size: 20px;
+    margin-bottom: 1em;
+    color: black;
+    text-shadow: 2px 2px rgb (42, 42, 42);
+}
+
+.input-names, .howtocontact {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.input-names .input-group {
+    flex-basis: 40%;
+}
+
+.howtocontact .input-contact {
+    flex-basis: 40%;
+}
+
+.custSubject {
+    padding: 20px 0 0 52px;
+    width: 95%;
+}
+
+.custMessage {
+    padding: 20px 0 0 52px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.custMessage textarea {
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+
+.submit {
+    padding: 20px 0 0 52px;
+}
+

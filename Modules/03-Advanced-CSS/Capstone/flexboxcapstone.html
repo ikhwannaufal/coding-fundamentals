@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Capstone Project</title>
+    <link rel="stylesheet" href="flexboxcapstone.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <header>
+      <img
+        class="logo"
+        src="https://cdn-icons-png.flaticon.com/128/11635/11635868.png"
+        alt="logo"
+      />
+      <h2>loCO LOco</h2>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Promotions</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Locations</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="#"><button>Sign Up</button></a>
+    </header>
+
+    <!-- Heading section -->
+    <section class="heading">
+      <div>
+        <h1>Our tacos are waiting for you, love</h1>
+        <p>
+          Delight in the symphony of flavors as you savor our handcrafted tacos;
+          tender, juicy meats dance with vibrant salsas, fresh veggies, and warm
+          tortillas, igniting a fiesta on your taste buds. Olé!
+        </p>
+        <a class="cta" href="#"><button>Order Now</button></a>
+      </div>
+    </section>
+
+    <!-- Contact card -->
+    <div class="contactcard">
+      <div class="info">
+        <h3>Contact Information</h3>
+        <p>
+          Craving an explosion of taste? Visit our tantalizing taco shop now!
+          Indulge in a mouthwatering fiesta of flavors that'll leave you coming
+          back for more. ¡Vamonos! 🌮
+        </p>
+        <div class="contactlinks">
+          <a href=""><i class="fa fa-phone"></i> +60 123 4567 </a>
+          <a href="mailto:ikhwannaufal.work@gmail.com"
+            ><i class="fa fa-envelope"></i> ikhwannaufal.work@gmail.com
+          </a>
+        </div>
+        <div class="sociallinks">
+          <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <form class="forms">
+        <h3>Send us a message!</h3>
+        <div class="input-names">
+          <div class="input-group">
+            <label for="firstname"
+              >First name:
+              <input type="text" name="firstname" required="required"
+            /></label>
+          </div>
+          <div class="input-group">
+            <label for="lastname"
+              >Last name: <input type="text" name="lastname" required="required"
+            /></label>
+          </div>  
+        </div>
+        <div class="howtocontact">
+          <div class="input-contact">
+            <label for="email"
+              >Email:
+              <input
+                type="email" placeholder="name@domain.com" name="email" required="required"
+            /></label>
+          </div>
+          <div class="input-contact">
+            <label for="contactnumber"
+              >Phone number:
+              <input type="number" name="contactnumber" required="option"
+            /></label>
+          </div>    
+        </div>
+        
+          <div class="custSubject">
+            <label for="subject">Subject: <input type="text" name="subject"/></label>
+          </div>
+          
+          <div class="custMessage">
+            <label for="">Message:</label>
+                <textarea rows="5" placeholder="Your message"></textarea>
+          </div>
+          
+          <br><a class="submit" href="#"><button style="background-color:  rgb(105, 189, 82);" >Submit</button></a>
+        
+      </form>
+    </div>
+  </body>
+</html>
