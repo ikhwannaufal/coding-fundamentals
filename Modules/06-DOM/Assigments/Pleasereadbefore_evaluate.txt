@@ -1,0 +1,3 @@
+For assignment 1, the css file name is DOM_ass2.css
+For assignment 2, the css file name is DOM_ass2_new.css
+Apologies for the inconvenience
