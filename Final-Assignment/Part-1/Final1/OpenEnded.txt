@@ -1,0 +1,60 @@
+1. Why do we need a loop? How do you write a basic for loop?
+
+Loops help programmers write more efficient code when they want to repeat the same action multiple times. Instead of writing the same code over and over, loops will save time by writing the code once.
+
+Example:
+const evenNumbers = [2,4,6,8,10,12,14,16,18,20];
+for (let i = 0; i < evenNumbers.length; i++) {
+	evenNumbers[i] *= 2;
+	i = i*2;
+}
+console.log(evenNumbers);
+
+
+2. Difference between console.log() and return?
+
+console.log() is used for logging information to the console for debugging and monitoring purposes, while return is used to pass a value or result from a function to the part of your code that called the function. 
+
+
+3. What are truthy values? What are falsy values?
+
+Truthy Values:
+
+In JavaScript, a value is considered "truthy" if it is treated as true when evaluated in a Boolean context.
+Here are some examples of truthy values:
+Numbers other than 0 (e.g., 1, 2, -1)
+Non-empty strings (e.g., "Hello, World!")
+Non-empty arrays and objects (e.g., [1, 2], { key: 'value' })
+The special value true
+
+Falsy Values:
+
+A value is considered "falsy" if it is treated as false when evaluated in a Boolean context.
+Some common falsy values include:
+The number 0
+An empty string '' (empty string)
+null
+undefined
+NaN (Not-a-Number)
+The special value false
+
+
+4. How does the internet work?
+
+The internet acts like a gigantic network, joining computers and devices worldwide. It breaks down information into small chunks and sends them through a sophisticated system of routers and connections. Each device gets a unique address, a bit like a home address, so messages reach the right place. Websites are like storybooks we find using their names, and internet providers ensure our connection.
+
+
+5. How does a website work? What files are involved?
+
+Websites are made up of multiple components, including various files and technologies that work together to deliver web content to users.
+
+The files involved are:
+Domain Name System (DNS)
+Web Hosting
+Web Server
+HTML
+CSS
+Javascript
+Server-side script
+Database
+Content Delivery Network (CDN)
